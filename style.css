@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    text-align: center;
+    /* background-color: #202124; */
+    overflow: hidden; /* Hide scrollbars */
+    background-image: url("assets/img/bg.jpg");
+    background-size: cover;
+}
+
+div#canvas {
+    margin:0 auto;
+    width: fit-content;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+}
+
+.pkeys, .xkeys{
+    cursor: pointer;
+    border-radius: 2px;
+    border-bottom: 10px solid #bdcacc;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    width: 40px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+}
+
+.pkeys:hover, .xkeys:hover {
+    background-color: rgb(233, 233, 233);
+    border-bottom: 10px solid #abb8b9;
+}
+
+h3 {
+    font-weight: 100;
+    display: inline-block;
+    color: white;
+    margin-right: 30px;
+    letter-spacing: 2px;
+}
+
+button {
+    border-radius: 100px;
+    margin: 30px 5px;
+    font-size: 17.3px;
+    padding: 7px 30px;
+    /* margin: 50vh auto; */
+    z-index: 999;
+}
+
+input#num, input#numxy {
+    margin-right: 10px;
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+input#num, input#numxy, button {
+    border: 0;
+}
