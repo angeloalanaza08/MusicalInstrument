@@ -1,5 +1,5 @@
 # Musical Instrument
-An app to immerse yourself in the world of melodies by playing both the piano and xylophone.
+An app to immerse yourself in the world of melodies by playing either a piano or a xylophone.
 <h2>📃 How to play: </h2>
 <ol type="1">
     <li>You will be presented with two instruments: a piano and a xylophone.</li>
