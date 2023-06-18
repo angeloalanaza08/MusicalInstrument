@@ -16,5 +16,5 @@ An app to immerse yourself in the world of melodies by playing both the piano an
 
 <h2>💡 What I learned: </h2>
 <ul>
-    <li>Broaden knowledge in using OOP ES6</li>
+    <li>Broaden knowledge in using OOP ES6.</li>
 </ul>
